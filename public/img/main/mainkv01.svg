@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2a"/>
+      <stop offset="50%" style="stop-color:#1a3a5c"/>
+      <stop offset="100%" style="stop-color:#0a0e1a"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8a96e;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#c8a96e;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g1)"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="360" x2="1920" y2="360" stroke="rgba(200,169,110,0.08)" stroke-width="1"/>
+  <line x1="0" y1="720" x2="1920" y2="720" stroke="rgba(200,169,110,0.08)" stroke-width="1"/>
+  <line x1="640" y1="0" x2="640" y2="1080" stroke="rgba(200,169,110,0.08)" stroke-width="1"/>
+  <line x1="1280" y1="0" x2="1280" y2="1080" stroke="rgba(200,169,110,0.08)" stroke-width="1"/>
+  <!-- Building silhouette -->
+  <rect x="800" y="200" width="320" height="880" fill="rgba(255,255,255,0.03)" rx="4"/>
+  <rect x="860" y="150" width="200" height="930" fill="rgba(255,255,255,0.04)" rx="4"/>
+  <rect x="900" y="100" width="120" height="980" fill="rgba(255,255,255,0.05)" rx="4"/>
+  <!-- Windows grid -->
+  <g fill="rgba(255,255,255,0.06)">
+    <rect x="870" y="170" width="16" height="20" rx="2"/>
+    <rect x="900" y="170" width="16" height="20" rx="2"/>
+    <rect x="930" y="170" width="16" height="20" rx="2"/>
+    <rect x="870" y="210" width="16" height="20" rx="2"/>
+    <rect x="900" y="210" width="16" height="20" rx="2"/>
+    <rect x="930" y="210" width="16" height="20" rx="2"/>
+    <rect x="870" y="250" width="16" height="20" rx="2"/>
+    <rect x="900" y="250" width="16" height="20" rx="2"/>
+    <rect x="930" y="250" width="16" height="20" rx="2"/>
+  </g>
+  <!-- Accent line -->
+  <rect x="0" y="0" width="1920" height="4" fill="#c8a96e" opacity="0.6"/>
+  <!-- Glow overlay -->
+  <rect x="0" y="0" width="1920" height="500" fill="url(#g2)"/>
+  <!-- Label -->
+  <text x="100" y="900" font-family="Arial,sans-serif" font-size="80" font-weight="900" fill="rgba(255,255,255,0.06)" letter-spacing="8">KV 01</text>
+  <text x="100" y="960" font-family="Arial,sans-serif" font-size="24" fill="rgba(200,169,110,0.5)">1920 × 1080  ·  메인 비주얼 슬라이드 1</text>
+</svg>
