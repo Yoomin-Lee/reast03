@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a1f5e"/>
+      <stop offset="100%" style="stop-color:#4a3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <!-- Syringe / vaccine icon -->
+  <rect x="240" y="170" width="120" height="36" rx="18" fill="rgba(76,175,125,0.35)"/>
+  <rect x="330" y="183" width="80" height="10" rx="5" fill="rgba(76,175,125,0.5)"/>
+  <rect x="185" y="176" width="56" height="24" rx="5" fill="rgba(255,255,255,0.15)"/>
+  <rect x="162" y="183" width="28" height="10" rx="3" fill="rgba(255,255,255,0.25)"/>
+  <text x="300" y="345" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,0.7)" text-anchor="middle" letter-spacing="2">예방접종</text>
+  <text x="300" y="368" font-family="Arial,sans-serif" font-size="12" fill="rgba(76,175,125,0.8)" text-anchor="middle">Vaccination</text>
+</svg>
