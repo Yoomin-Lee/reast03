@@ -37,7 +37,7 @@ button { cursor: pointer; background: none; border: none; }
    ALL-WRAP
 =================================================== */
 .all-wrap { display: flex; flex-direction: column; min-height: 100vh; }
-main { flex: 1; }
+main { flex: 1; padding-top: var(--header-h); }
 
 /* ===================================================
    HEADER  — 항상 흰색 (CHINHUNG 스타일)
