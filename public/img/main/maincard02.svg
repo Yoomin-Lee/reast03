@@ -1,12 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
   <defs>
-    <linearGradient id="g" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e3040"/>
-      <stop offset="100%" style="stop-color:#0a1828"/>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a4f35"/>
+      <stop offset="100%" style="stop-color:#2d7a54"/>
     </linearGradient>
   </defs>
   <rect width="600" height="400" fill="url(#g)"/>
-  <rect x="0" y="0" width="3" height="400" fill="#c8a96e" opacity="0.7"/>
-  <text x="30" y="200" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="rgba(255,255,255,0.06)">CARD 02</text>
-  <text x="30" y="370" font-family="Arial,sans-serif" font-size="16" fill="rgba(200,169,110,0.5)">600 × 400</text>
+  <!-- Scalpel / surgery icon (cross) -->
+  <rect x="268" y="120" width="64" height="180" rx="10" fill="rgba(255,255,255,0.18)"/>
+  <rect x="200" y="180" width="200" height="60" rx="10" fill="rgba(255,255,255,0.18)"/>
+  <text x="300" y="345" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,0.7)" text-anchor="middle" letter-spacing="2">외과수술</text>
+  <text x="300" y="368" font-family="Arial,sans-serif" font-size="12" fill="rgba(76,175,125,0.8)" text-anchor="middle">Surgery</text>
 </svg>

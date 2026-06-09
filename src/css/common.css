@@ -19,8 +19,8 @@ button { cursor: pointer; background: none; border: none; }
    CSS VARIABLES
 =================================================== */
 :root {
-  --color-primary: #1a1a2e;
-  --color-accent: #c8a96e;
+  --color-primary: #0d3b55;
+  --color-accent: #4caf7d;
   --color-white: #fff;
   --color-black: #000;
   --color-gray1: #f5f5f5;
@@ -416,7 +416,7 @@ header nav.pc.open .nav-cnt { height: var(--nav-cnt-h); }
   overflow: hidden;
 }
 .sustainable::before {
-  content: 'ECO';
+  content: 'CARE';
   position: absolute;
   right: -20px;
   top: 50%;
@@ -512,7 +512,7 @@ header nav.pc.open .nav-cnt { height: var(--nav-cnt-h); }
   overflow: hidden;
 }
 .relation::before {
-  content: 'IR';
+  content: 'BOOK';
   position: absolute;
   right: 60px;
   top: 50%;
