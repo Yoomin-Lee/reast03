@@ -43,6 +43,10 @@ function initMoNav(header) {
     navMo.classList.toggle('open')
     header.classList.toggle('open')
     document.body.style.overflow = navMo.classList.contains('open') ? 'hidden' : ''
+    // 닫힐 때 모든 서브메뉴 초기화
+    if (!navMo.classList.contains('open')) {
+      navMo.querySelectorAll('.menu-wrap dl').forEach(d => d.classList.remove('open'))
+    }
   })
 
   // Accordion
