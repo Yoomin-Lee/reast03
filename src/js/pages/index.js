@@ -30,6 +30,13 @@ export function initKvSwiper() {
     })
   }
 
+  const dots = [...document.querySelectorAll('.kv-dot')]
+
+  function updateDots(swiper) {
+    const idx = swiper.realIndex
+    dots.forEach((d, i) => d.classList.toggle('active', i === idx))
+  }
+
   const kv = new Swiper('.kv-swiper', {
     modules: [Navigation, Autoplay],
     loop: true,
@@ -40,9 +47,13 @@ export function initKvSwiper() {
       nextEl: '.kv-swiper .swiper-button-next',
     },
     on: {
-      init(swiper) { startTimer(SLIDE_DURATION) },
-      slideChange() { startTimer(SLIDE_DURATION) },
+      init(swiper) { startTimer(SLIDE_DURATION); updateDots(swiper) },
+      slideChange(swiper) { startTimer(SLIDE_DURATION); updateDots(swiper) },
     },
+  })
+
+  dots.forEach((dot, i) => {
+    dot.addEventListener('click', () => kv.slideToLoop(i))
   })
 
   return kv

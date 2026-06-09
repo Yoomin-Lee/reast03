@@ -7,28 +7,28 @@
 
   /* Header */
   .nav-bar { padding: 0 40px; }
-  .nav-bar > ul { gap: 32px; }
-  .nav-bar > ul > li { font-size: 14px; }
+  .nav-bar > ul > li { padding: 0 20px; font-size: 14px; }
   .nav-cnt > ul { padding: 0 40px; }
 
-  /* KV */
-  .text-mask { bottom: 70px; left: 50px; }
-  .card-wrap { width: 240px; }
+  /* Hero */
+  .text-mask { bottom: 80px; }
+  .kv-swiper .swiper-button-prev,
+  .kv-swiper .swiper-button-next { width: 36px; height: 36px; }
 
   /* Sections */
-  .founding { padding: 100px 40px; }
-  .business { padding: 80px 0 80px 40px; }
-  .business-swiper .swiper-slide { width: 280px; height: 380px; }
-  .sustainable { padding: 90px 40px; }
-  .sustainable-wrap { gap: 50px; }
-  .sustainable-wrap .sectit { min-width: 260px; }
+  .founding { padding: 80px 40px; }
+  .business { padding: 80px 0 120px 40px; }
+  .business-swiper .swiper-slide { width: 260px; height: 360px; }
+  .sustainable { height: 480px; }
+  .sustainable-wrap { padding: 48px 40px; }
+  .sustainable-wrap .seccnt .dec { font-size: 15px; }
   .discover { padding: 80px 40px; }
-  .relation { padding: 90px 40px; }
+  .relation { padding: 80px 40px; }
   .relation-wrap { gap: 50px; }
-  .relation-wrap .sectit { min-width: 260px; }
+  .relation-wrap .sectit { min-width: 240px; }
 
   /* Footer */
-  .company-info { padding: 60px 40px; }
-  .footer-wrap { padding: 40px; }
+  .company-info { padding: 56px 40px; }
+  .footer-wrap { padding: 36px 40px; }
   .left-side { gap: 40px; }
 }

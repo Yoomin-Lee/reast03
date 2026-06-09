@@ -6,13 +6,11 @@ export function initHeader() {
   const header = document.querySelector('header')
   if (!header) return
 
-  // Scroll: dark → white
+  // 스크롤 시 헤더 그림자 추가
   const onScroll = () => {
-    if (window.scrollY > 80) {
-      header.classList.remove('dark')
+    if (window.scrollY > 20) {
       header.classList.add('white')
     } else {
-      header.classList.add('dark')
       header.classList.remove('white')
     }
   }
